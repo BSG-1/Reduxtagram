@@ -5,4 +5,4 @@ import { render } from 'react-dom';
 //import CSS
 import css from './styles/style.styl';
 
-render(<p>hi</p>, document.getElementById('root'));
+render(<p>hello</p>, document.getElementById('root'));
