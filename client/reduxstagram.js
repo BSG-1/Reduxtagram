@@ -1,3 +1,4 @@
-// let's go!
+//import react
 import React from 'react';
 import { render } from 'react-dom';
+
