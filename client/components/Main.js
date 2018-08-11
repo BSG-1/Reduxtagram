@@ -10,4 +10,6 @@ const Main = React.createClass({
             </div>
         )
     }
-})
+});
+
+export default Main;
