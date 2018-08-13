@@ -1,1 +1,1 @@
-import 
+import { createStore, compse } from 'redux';
