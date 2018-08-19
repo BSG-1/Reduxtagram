@@ -3,4 +3,11 @@ import { connect } from 'react-redux';
 import * as actionCreators from '../actions/actionCreators';
 import Main from './Main';
 
-const App = connect()
+function mapStateToProps(state) {
+    return {
+        posts: state.posts,
+        comments: state.comments
+    }
+}
+
+const App = connect(mapStateToProps, mapDispatchToProps);
